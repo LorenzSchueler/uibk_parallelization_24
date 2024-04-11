@@ -104,10 +104,7 @@ void physics::get_physical_fluxes(const fluid_cell &fluid, fluxes_cell &fluxes, 
 	}
 }
 
-double physics::get_sound_speed(double density, double pressure) {
-	// TBD by students
-	return 42.0;
-}
+double physics::get_sound_speed(double density, double pressure) { return std::sqrt(adiabatic_index * pressure / density); }
 
 double physics::get_lambda_abs_max(const fluid_cell &fluid) {
 	assert(!fluid.is_conservative());
