@@ -21,11 +21,9 @@ void reconstruction::get_derivatives(const fluid &fluid3D, fluid_cell &derivativ
 			delta_left = fluid3D.fluid_data[index_field](index_x, index_y, index_z) - fluid3D.fluid_data[index_field](index_x, index_y, index_z - 1);
 			delta_right = fluid3D.fluid_data[index_field](index_x, index_y, index_z + 1) - fluid3D.fluid_data[index_field](index_x, index_y, index_z);
 		}
-		double delta_central = (delta_left + delta_right)*0.5;
+		double delta_central = (delta_left + delta_right) * 0.5;
 
-		// Now, apply the limiter
-		// TBD by students: here you have to pass sensible parameters
-		double derivative = limiter.compute(42.0, 42.0, 42.0);
+		double derivative = limiter.compute(delta_left, delta_central, delta_right);
 		derivatives.fluid_data[index_field] = derivative;
 	}
 }
