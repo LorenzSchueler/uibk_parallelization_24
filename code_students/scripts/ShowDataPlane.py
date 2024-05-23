@@ -4,9 +4,30 @@ from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
 import numpy as np
+import os
+import re
 
 
-path_data = "/put/your/path/here/code/build"
+def largest_file(directory):
+    files = os.listdir(directory)
+    
+    files = [file for file in files if file.startswith("output_step") and file.endswith(".h5")]
+    
+    if not files:
+        return None
+    
+    def extract_number(filename):
+        match = re.search(r'\d+', filename)
+        return int(match.group()) if match else -1
+    
+    largest_file = max(files, key=extract_number)
+    
+    return largest_file
+
+path_data = "/home/cb76/cb761155/uibk_parallelization_24/code_students/build"
+
+file_name = largest_file(path_data)
+full_name = path_data + "/" + file_name
 
 
 class plane_type(Enum) :
@@ -147,7 +168,7 @@ class data_plotter() :
         ax.azim = 30
         ax.elev = 20
         
-        ax.set_aspect('equal')
+        ax.set_aspect('auto')
         ax.set_box_aspect([1,1,1])
         
         ax.set_xlim([np.min(x_grid), np.max(x_grid)])
@@ -164,8 +185,6 @@ class data_plotter() :
         fig.savefig(output_name)
 
 def analysis_single_plane() :
-    file_name = "output_step140.h5"
-    full_name = path_data + "/" + file_name;
     my_reader = data_reader(full_name)
     
     size_x, size_y, size_z = my_reader.get_grid_extent()
@@ -186,8 +205,6 @@ def analysis_single_plane() :
 
 def analysis_3D() :
     # Here we do a joint plot of all 3 midplanes
-    file_name = "output_step140.h5"
-    full_name = path_data + "/" + file_name;
     my_reader = data_reader(full_name)    
     
     # Now, get the data in the 3 mid planes
@@ -210,8 +227,6 @@ def analysis_3D() :
     
 def analysis_3D_projected() :
     # Here we do a joint plot of all 3 midplanes
-    file_name = "output_step140.h5"
-    full_name = path_data + "/" + file_name;
     my_reader = data_reader(full_name)    
     
     # Now, get the data in the 3 mid planes
@@ -243,5 +258,5 @@ def analysis_3D_projected() :
             
 if __name__ == "__main__" :
     analysis_single_plane()
-    #analysis_3D()
-    #analysis_3D_projected()
+    analysis_3D()
+    analysis_3D_projected()

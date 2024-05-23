@@ -1,4 +1,6 @@
 .cache
+.env
 .vscode
+bin
 build
-
+build_debug
