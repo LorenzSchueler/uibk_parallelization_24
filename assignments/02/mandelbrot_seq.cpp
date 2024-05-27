@@ -1,8 +1,8 @@
 #include <bits/chrono.h>
+#include <chrono>
 #include <cstdint>
 #include <cstdlib>
 #include <iostream>
-#include <chrono>
 #include <sys/time.h>
 #include <tuple>
 #include <vector>
@@ -26,9 +26,7 @@ constexpr int max_iterations = 10000;
 
 #define IND(Y, X, SIZE_Y, SIZE_X, CHANNEL) (Y * SIZE_X * num_channels + X * num_channels + CHANNEL)
 
-size_t index(int y, int x, int /*size_y*/, int size_x, int channel) {
-	return y * size_x * num_channels + x * num_channels + channel;
-}
+size_t index(int y, int x, int /*size_y*/, int size_x, int channel) { return y * size_x * num_channels + x * num_channels + channel; }
 
 using Image = std::vector<uint8_t>;
 
@@ -68,7 +66,7 @@ auto HSVToRGB(double H, const double S, double V) {
 void calcMandelbrot(Image &image, int size_x, int size_y) {
 
 	auto time_start = std::chrono::high_resolution_clock::now();
-	
+
 	const float left = -2.5, right = 1;
 	const float bottom = -1, top = 1;
 
@@ -102,10 +100,10 @@ void calcMandelbrot(Image &image, int size_x, int size_y) {
 			image[index(pixel_y, pixel_x, size_y, size_x, channel++)] = (uint8_t)(blue * UINT8_MAX);
 		}
 	}
-	
+
 	auto time_end = std::chrono::high_resolution_clock::now();
 	auto time_elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(time_end - time_start).count();
-	
+
 	std::cout << "Mandelbrot set calculation for " << size_x << "x" << size_y << " took: " << time_elapsed << " ms." << std::endl;
 }
 
