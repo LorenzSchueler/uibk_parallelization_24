@@ -19,12 +19,14 @@ endif()
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # set standard flags
-set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic")
+set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -g -pg")
 set(CMAKE_CXX_FLAGS_DEBUG "-g -O0 -g2")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -mtune=native -DNDEBUG")
 
 find_package(HDF5 REQUIRED)
 MESSAGE(STATUS "HDF5_INCLUDE_DIRS: ${HDF5_INCLUDE_DIR}")
+
+find_package(MPI REQUIRED)
 
 # Make serial form of the library
 add_library(SerialHdf5 INTERFACE)

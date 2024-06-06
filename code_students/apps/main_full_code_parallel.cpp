@@ -6,7 +6,10 @@
 #include "util/matrix.hpp"
 #include "util/utility_functions.hpp"
 
+#include "mpi.h"
 #include <cmath>
+#include <cstdio>
+#include <cstdlib>
 #include <functional>
 #include <iostream>
 
@@ -32,7 +35,24 @@ void init_Sedov(fluid_cell &fluid, double x_position, double y_position, double 
 	fluid.fluid_data[fluid.get_index_v_z()] = 0.0;
 }
 
-int main() {
+int main(int argc, char **argv) {
+	MPI_Init(&argc, &argv);
+	int rank;
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+	int ranks;
+	MPI_Comm_size(MPI_COMM_WORLD, &ranks);
+
+	printf("hello from rank %d from %d\n", rank, ranks);
+
+	int x_size = 32;
+
+	if (x_size % ranks != 0) {
+		printf("number of ranks %d does not divide %d\n", ranks, x_size);
+		return EXIT_FAILURE;
+	}
+
+	double start = MPI_Wtime();
+
 	std::vector<double> bound_low(3), bound_up(3);
 	bound_low[0] = -0.5;
 	bound_low[1] = -0.5;
@@ -43,7 +63,7 @@ int main() {
 	bound_up[2] = 0.5;
 
 	std::vector<int> num_cells(3);
-	num_cells[0] = 32;
+	num_cells[0] = x_size / rank;
 	num_cells[1] = 32;
 	num_cells[2] = 32;
 
@@ -83,6 +103,12 @@ int main() {
 	double dt_out = 0.005;
 
 	solver.run(my_grid, hd_fluid, t_final, dt_out);
+
+	double end = MPI_Wtime();
+
+	MPI_Finalize();
+
+	printf("%lf\n", end - start);
 
 	return 0;
 }
