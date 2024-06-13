@@ -14,12 +14,10 @@ void HLL_solver::get_num_flux(fluid_cell &fluid_left_cell, fluid_cell &fluid_rig
 			num_flux[i_field] = phys_flux_left_cell[i_field];
 		}
 	} else if (v_char_fastest < 0.0) {
-		// TBD by students
 		for (std::size_t i_field = 0; i_field < num_fields; i_field++) {
 			num_flux[i_field] = phys_flux_right_cell[i_field];
 		}
 	} else { // F_hll
-		// TBD by students
 		for (std::size_t i_field = 0; i_field < num_fields; i_field++) {
 			double S_r = v_char_fastest;
 			double S_l = v_char_slowest;
