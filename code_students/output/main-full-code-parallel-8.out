@@ -1,0 +1,145 @@
+hello from rank 1 from 8
+hello from rank 2 from 8
+hello from rank 3 from 8
+hello from rank 5 from 8
+hello from rank 6 from 8
+hello from rank 7 from 8
+hello from rank 0 from 8
+hello from rank 4 from 8
+ Running in parallel with 8 tasks 
+ Created new tasks 7
+ MPI coordinates for rank 7 -> 1 1 1
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 7 0 0 0 0.5 0.5 0.5 
+ Constructor
+ axes
+wtf
+ Making linear grid from 0 0.5 with 16 cells
+ Created new tasks 1
+ MPI coordinates for rank 1 -> 0 0 1
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 1 -0.5 -0.5 0 0 0 0.5 
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0 with 16 cells
+ Created new tasks 2
+ MPI coordinates for rank 2 -> 0 1 0
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 2 -0.5 0 -0.5 0 0.5 0 
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Created new tasks 4
+ MPI coordinates for rank 4 -> 1 0 0
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 4 0 -0.5 -0.5 0.5 0 0 
+ Constructor
+ axes
+wtf
+ Making linear grid from 0 0.5 with 16 cells
+ Created new tasks 3
+ MPI coordinates for rank 3 -> 0 1 1
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 3 -0.5 0 0 0 0.5 0.5 
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Created new tasks 5
+ MPI coordinates for rank 5 -> 1 0 1
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 5 0 -0.5 0 0.5 0 0.5 
+ Constructor
+ axes
+wtf
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Created new tasks 6
+ MPI coordinates for rank 6 -> 1 1 0
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 6 0 0 -0.5 0.5 0.5 0 
+ Constructor
+ axes
+wtf
+ Making linear grid from 0 0.5 with 16 cells
+ Created new tasks 0
+ MPI coordinates for rank 0 -> 0 0 0
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 0 -0.5 -0.5 -0.5 0 0 0 
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+Volume of Sedov region: 0.000518799 in 17 cells
+Volume of Sedov region: 0.000518799 in 17 cells
+Volume of Sedov region: 0.000518799 in 17 cells
+Volume of Sedov region: 0.000518799 in 17 cells
+Volume of Sedov region: 0.000518799 in 17 cells
+Volume of Sedov region: 0.000518799 in 17 cells
+Volume of Sedov region global: 0.00415039 in 136 cells
+Volume of Sedov region: 0.000518799 in 17 cells
+Volume of Sedov region: 0.000518799 in 17 cells
+Volume of Sedov region global: 0.00415039 in 136 cells
+Volume of Sedov region global: 0.00415039 in 136 cells
+Volume of Sedov region global: 0.00415039 in 136 cells
+Volume of Sedov region global: 0.00415039 in 136 cells
+Volume of Sedov region global: 0.00415039 in 136 cells
+Volume of Sedov region global: 0.00415039 in 136 cells
+Volume of Sedov region global: 0.00415039 in 136 cells

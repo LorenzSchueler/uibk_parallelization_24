@@ -1,6 +1,7 @@
 #include "core/config.hpp"
 #include "setup/fluid.hpp"
 #include "setup/grid.hpp"
+#include "setup/mpi_handler.hpp"
 #include "solver/finite_volume_solver.hpp"
 #include "solver/time_integrator.hpp"
 #include "util/matrix.hpp"
@@ -44,12 +45,12 @@ int main(int argc, char **argv) {
 
 	printf("hello from rank %d from %d\n", rank, ranks);
 
-	int x_size = 32;
+	// int x_size = 32;
 
-	if (x_size % ranks != 0) {
-		printf("number of ranks %d does not divide %d\n", ranks, x_size);
-		return EXIT_FAILURE;
-	}
+	// if (x_size % ranks != 0) {
+	// printf("number of ranks %d does not divide %d\n", ranks, x_size);
+	// return EXIT_FAILURE;
+	//}
 
 	double start = MPI_Wtime();
 
@@ -63,23 +64,42 @@ int main(int argc, char **argv) {
 	bound_up[2] = 0.5;
 
 	std::vector<int> num_cells(3);
-	num_cells[0] = x_size / rank;
+	num_cells[0] = 32;
 	num_cells[1] = 32;
 	num_cells[2] = 32;
 
-	grid_3D my_grid(bound_low, bound_up, num_cells, 2);
+	std::vector<int> num_tasks(3);
+	num_tasks[0] = 2;
+	num_tasks[1] = 2;
+	num_tasks[2] = 2;
+	mpi_handler handler = mpi_handler(num_tasks);
+
+	grid_3D global_grid = grid_3D(bound_low, bound_up, num_cells, 2);
+	grid_3D local_grid = handler.make_local_grid(global_grid);
+
+	// std::cout << "rank: " << rank << " x cells: " << local_grid.get_num_cells(0) << std::endl;
+	// std::cout << "rank: " << rank << " y cells: " << local_grid.get_num_cells(1) << std::endl;
+	// std::cout << "rank: " << rank << " z cells: " << local_grid.get_num_cells(2) << std::endl;
+
+	// std::cout << "rank: " << rank << " x size: " << local_grid.x_grid.get_dx(0) << std::endl;
+	// std::cout << "rank: " << rank << " y size: " << local_grid.y_grid.get_dx(0) << std::endl;
+	// std::cout << "rank: " << rank << " z size: " << local_grid.z_grid.get_dx(0) << std::endl;
+
+	// std::cout << "rank: " << rank << " x index: " << local_grid.x_grid.get_left(0) << std::endl;
+	// std::cout << "rank: " << rank << " y index: " << local_grid.y_grid.get_left(0) << std::endl;
+	// std::cout << "rank: " << rank << " z index: " << local_grid.z_grid.get_left(0) << std::endl;
 
 	// Get number of Sedov cells
 	Sedov_volume = 0.0;
 	int num_Sedov_cells = 0;
-	double volume_cell = my_grid.x_grid.get_dx() * my_grid.y_grid.get_dx() * my_grid.z_grid.get_dx();
+	double volume_cell = local_grid.x_grid.get_dx() * local_grid.y_grid.get_dx() * local_grid.z_grid.get_dx();
 
-	for (int ix = 0; ix < my_grid.get_num_cells(0); ++ix) {
-		double x_position = my_grid.x_grid.get_center(ix);
-		for (int iy = 0; iy < my_grid.get_num_cells(1); ++iy) {
-			double y_position = my_grid.y_grid.get_center(iy);
-			for (int iz = 0; iz < my_grid.get_num_cells(2); ++iz) {
-				double z_position = my_grid.z_grid.get_center(iz);
+	for (int ix = 0; ix < local_grid.get_num_cells(0); ++ix) {
+		double x_position = local_grid.x_grid.get_center(ix);
+		for (int iy = 0; iy < local_grid.get_num_cells(1); ++iy) {
+			double y_position = local_grid.y_grid.get_center(iy);
+			for (int iz = 0; iz < local_grid.get_num_cells(2); ++iz) {
+				double z_position = local_grid.z_grid.get_center(iz);
 				double dist = sqrt(sim_util::square(x_position) + sim_util::square(y_position) + sim_util::square(z_position));
 				if (dist < 0.1) {
 					Sedov_volume += volume_cell;
@@ -88,11 +108,20 @@ int main(int argc, char **argv) {
 			}
 		}
 	}
-	std::cout << " Volume of Sedov region: " << Sedov_volume << " in " << num_Sedov_cells << " cells\n";
+	std::cout << "Volume of Sedov region: " << Sedov_volume << " in " << num_Sedov_cells << " cells\n";
+
+	MPI_Allreduce(MPI_IN_PLACE, &Sedov_volume, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+	MPI_Allreduce(MPI_IN_PLACE, &num_Sedov_cells, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
+
+	std::cout << "Volume of Sedov region global: " << Sedov_volume << " in " << num_Sedov_cells << " cells\n";
+
+	MPI_Finalize();
+
+	return 0;
 
 	// Now, I will create a HD fluid
 	fluid hd_fluid(parallelisation::FluidType::adiabatic);
-	hd_fluid.setup(my_grid);
+	hd_fluid.setup(local_grid);
 
 	std::function<void(fluid_cell &, double, double, double)> function_init = init_Sedov;
 
@@ -102,7 +131,7 @@ int main(int argc, char **argv) {
 	double t_final = 0.1;
 	double dt_out = 0.005;
 
-	solver.run(my_grid, hd_fluid, t_final, dt_out);
+	solver.run(local_grid, hd_fluid, t_final, dt_out);
 
 	double end = MPI_Wtime();
 
