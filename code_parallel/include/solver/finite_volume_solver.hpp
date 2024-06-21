@@ -8,7 +8,6 @@
 #include "solver/Riemann_solvers.hpp"
 #include "solver/reconstruction.hpp"
 
-
 // #define PARALLEL_VERSION
 
 #ifdef PARALLEL_VERSION
@@ -21,11 +20,10 @@
 class finite_volume_solver {
 public:
 #ifdef PARALLEL_VERSION
-	finite_volume_solver(fluid &current_fluid, mpi_handler &parallel_stuff,
-		grid_3D &global_grid);
+	finite_volume_solver(fluid &current_fluid, mpi_handler &parallel_stuff, grid_3D &global_grid);
 #else
 	finite_volume_solver(fluid &current_fluid);
-#endif	
+#endif
 	double singlestep(grid_3D &spatial_grid, fluid &current_fluid, fluid &current_changes);
 	int run(grid_3D &spatial_grid, fluid &current_fluid, double time_final, double delta_t_output);
 	void set_init_function(std::function<void(fluid_cell &, double, double, double)>);
@@ -43,8 +41,7 @@ private:
 	void store_timestep_parallel(grid_3D &spatial_grid, fluid &current_fluid);
 #else
 	void store_timestep(grid_3D &spatial_grid, fluid &current_fluid);
-#endif	
-
+#endif
 
 	double compute_delta_t_next(grid_3D &spatial_grid, fluid &current_fluid);
 	physics fluid_physics;
