@@ -1,4 +1,5 @@
 #include "core/config.hpp"
+#include "mpi.h"
 #include "setup/fluid.hpp"
 #include "setup/grid.hpp"
 #include "solver/finite_volume_solver.hpp"
@@ -9,6 +10,7 @@
 #include <cmath>
 #include <functional>
 #include <iostream>
+#include <sys/time.h>
 
 double Sedov_volume;
 
@@ -33,6 +35,9 @@ void init_Sedov(fluid_cell &fluid, double x_position, double y_position, double 
 }
 
 int main() {
+	struct timeval start;
+	gettimeofday(&start, NULL);
+
 	std::vector<double> bound_low(3), bound_up(3);
 	bound_low[0] = -0.5;
 	bound_low[1] = -0.5;
@@ -43,9 +48,9 @@ int main() {
 	bound_up[2] = 0.5;
 
 	std::vector<int> num_cells(3);
-	num_cells[0] = 128;
-	num_cells[1] = 128;
-	num_cells[2] = 128;
+	num_cells[0] = 32;
+	num_cells[1] = 32;
+	num_cells[2] = 32;
 
 	grid_3D my_grid(bound_low, bound_up, num_cells, 2);
 
@@ -83,6 +88,12 @@ int main() {
 	double dt_out = 0.005;
 
 	solver.run(my_grid, hd_fluid, t_final, dt_out);
+
+	struct timeval diff, end;
+	gettimeofday(&end, NULL);
+	timersub(&end, &start, &diff);
+
+	printf("time: %ld.%ld\n", diff.tv_sec, diff.tv_usec);
 
 	return 0;
 }

@@ -1,4 +1,5 @@
 #include "core/config.hpp"
+#include "mpi.h"
 #include "setup/fluid.hpp"
 #include "setup/grid.hpp"
 #include "setup/mpi_handler.hpp"
@@ -10,6 +11,7 @@
 #include <cmath>
 #include <functional>
 #include <iostream>
+#include <sys/time.h>
 
 double Sedov_volume;
 
@@ -40,6 +42,8 @@ void init_linear(fluid_cell &fluid, double x_position, double y_position, double
 }
 
 int main(int argc, char *argv[]) {
+	struct timeval start;
+	gettimeofday(&start, NULL);
 
 	int ntasks, rank(0);
 	MPI_Init(&argc, &argv);
@@ -58,10 +62,9 @@ int main(int argc, char *argv[]) {
 	bound_up[2] = 0.5;
 
 	std::vector<int> num_cells(3);
-	num_cells[0] = 128;
-	num_cells[1] = 128;
-	num_cells[2] = 128;
-
+	num_cells[0] = 32;
+	num_cells[1] = 32;
+	num_cells[2] = 32;
 
 	std::vector<int> tasks(3);
 	tasks[0] = 2;
@@ -131,6 +134,14 @@ int main(int argc, char *argv[]) {
 	double dt_out = 0.005;
 
 	solver_parallel.run(my_grid, hd_fluid, t_final, dt_out);
+
+	if (rank == 0) {
+		struct timeval diff, end;
+		gettimeofday(&end, NULL);
+		timersub(&end, &start, &diff);
+
+		printf("time: %ld.%ld\n", diff.tv_sec, diff.tv_usec);
+	}
 
 	MPI_Finalize();
 	return 0;
