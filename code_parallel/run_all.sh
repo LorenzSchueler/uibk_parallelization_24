@@ -10,3 +10,4 @@ mkdir output
 for tasks in 8 ; do #2 4 16 64 96 ; do
     sbatch --output=output/main-full-code-parallel-$tasks.out --ntasks=$tasks parallel.sh
 done
+sbatch --output=output/main-full-code-serial.out --ntasks=1 serial.sh

@@ -615,7 +615,7 @@ double finite_volume_solver::get_CFL(grid_3D &spatial_grid, fluid &current_fluid
 
 void finite_volume_solver::store_timestep_parallel(grid_3D &spatial_grid, fluid &current_fluid) {
 	std::ostringstream oss_file_name;
-	oss_file_name << "output_step" << num_time_steps << ".h5";
+	oss_file_name << "output_step_parallel" << num_time_steps << ".h5";
 	std::string file_name = oss_file_name.str();
 
 	data_storage_parallel storage(file_name);
@@ -702,7 +702,7 @@ void finite_volume_solver::store_timestep_parallel(grid_3D &spatial_grid, fluid 
 
 void finite_volume_solver::store_timestep(grid_3D &spatial_grid, fluid &current_fluid) {
 	std::ostringstream oss_file_name;
-	oss_file_name << "output_step" << num_time_steps << ".h5";
+	oss_file_name << "output_step_serial" << num_time_steps << ".h5";
 	std::string file_name = oss_file_name.str();
 
 	data_storage storage(file_name);

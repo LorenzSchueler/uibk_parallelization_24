@@ -1,11 +1,11 @@
 #include "core/config.hpp"
 #include "setup/fluid.hpp"
 #include "setup/grid.hpp"
+#include "setup/mpi_handler.hpp"
 #include "solver/finite_volume_solver.hpp"
 #include "solver/time_integrator.hpp"
 #include "util/matrix.hpp"
 #include "util/utility_functions.hpp"
-#include "setup/mpi_handler.hpp"
 
 #include <cmath>
 #include <functional>
@@ -33,13 +33,11 @@ void init_Sedov(fluid_cell &fluid, double x_position, double y_position, double 
 	fluid.fluid_data[fluid.get_index_v_z()] = 0.0;
 }
 
-
 void init_linear(fluid_cell &fluid, double x_position, double y_position, double z_position) {
 	fluid.fluid_data[0] = x_position;
 	fluid.fluid_data[1] = y_position;
 	fluid.fluid_data[2] = z_position;
 }
-
 
 int main(int argc, char *argv[]) {
 
@@ -50,7 +48,6 @@ int main(int argc, char *argv[]) {
 
 	std::cout << " I am using rank " << rank << " of " << ntasks << "\n";
 
-	
 	std::vector<double> bound_low(3), bound_up(3);
 	bound_low[0] = -0.5;
 	bound_low[1] = -0.5;
@@ -68,13 +65,11 @@ int main(int argc, char *argv[]) {
 
 	std::vector<int> tasks(3);
 	tasks[0] = 2;
-	tasks[1] = 1;
-	tasks[2] = 1;
+	tasks[1] = 2;
+	tasks[2] = 2;
 
 	// Start the MPI handler
 	mpi_handler parallel_stuff(tasks);
-
-
 
 	grid_3D global_grid(bound_low, bound_up, num_cells, 2);
 	// grid_3D my_grid(bound_low, bound_up, num_cells, 2);
@@ -85,8 +80,7 @@ int main(int argc, char *argv[]) {
 
 	std::cout << " Anfang: " << my_grid.x_grid.get_center(0) << " " << my_grid.x_grid.get_left(0) << "\n";
 	int num = my_grid.get_num_cells(0);
-	std::cout << " Ende: " << my_grid.x_grid.get_center(num-1) << " " << my_grid.x_grid.get_left(num) << "\n";
-
+	std::cout << " Ende: " << my_grid.x_grid.get_center(num - 1) << " " << my_grid.x_grid.get_left(num) << "\n";
 
 	// Get number of Sedov cells
 	Sedov_volume = 0.0;
@@ -116,15 +110,12 @@ int main(int argc, char *argv[]) {
 	MPI_Allreduce(&local_num_Sedov_cells, &num_Sedov_cells, 1, MPI_INT, MPI_SUM, parallel_stuff.comm3D);
 	MPI_Allreduce(&local_Sedov_volume, &Sedov_volume, 1, MPI_DOUBLE, MPI_SUM, parallel_stuff.comm3D);
 
-	if(parallel_stuff.get_rank()==0) {
+	if (parallel_stuff.get_rank() == 0) {
 		std::cout << " Volume of Sedov region: " << Sedov_volume << " in " << num_Sedov_cells << " cells\n";
 	}
 
 	// MPI_Finalize();
 	// return 0;
-
-
-	
 
 	// Now, I will create a HD fluid
 	fluid hd_fluid(parallelisation::FluidType::adiabatic);

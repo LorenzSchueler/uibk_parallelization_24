@@ -8,8 +8,6 @@
 #include "solver/Riemann_solvers.hpp"
 #include "solver/reconstruction.hpp"
 
-// #define PARALLEL_VERSION
-
 #ifdef PARALLEL_VERSION
 #include "setup/mpi_handler.hpp"
 #endif
