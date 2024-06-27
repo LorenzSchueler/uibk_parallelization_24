@@ -1,0 +1,2487 @@
+ I am using rank 0 of 8
+ Running in parallel with 8 tasks 
+ I am using rank 2 of 8
+ I am using rank 3 of 8
+ I am using rank 4 of 8
+ I am using rank 5 of 8
+ I am using rank 6 of 8
+ I am using rank 7 of 8
+ I am using rank 1 of 8
+ Created new tasks 7
+ MPI coordinates for rank 7 -> 1 1 1
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 7 0 0 0 0.5 0.5 0.5 
+ Constructor
+ axes
+wtf
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Anfang: 0.015625 0
+ Ende: 0.484375 0.5
+ Created new tasks 0
+ MPI coordinates for rank 0 -> 0 0 0
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 0 -0.5 -0.5 -0.5 0 0 0 
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Anfang: -0.484375 -0.5
+ Ende: -0.015625 0
+ Created new tasks 2
+ MPI coordinates for rank 2 -> 0 1 0
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 2 -0.5 0 -0.5 0 0.5 0 
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Anfang: -0.484375 -0.5
+ Ende: -0.015625 0
+ Created new tasks 3
+ MPI coordinates for rank 3 -> 0 1 1
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 3 -0.5 0 0 0 0.5 0.5 
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Anfang: -0.484375 -0.5
+ Ende: -0.015625 0
+ Created new tasks 4
+ MPI coordinates for rank 4 -> 1 0 0
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 4 0 -0.5 -0.5 0.5 0 0 
+ Constructor
+ axes
+wtf
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Anfang: 0.015625 0
+ Ende: 0.484375 0.5
+ Created new tasks 5
+ MPI coordinates for rank 5 -> 1 0 1
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 5 0 -0.5 0 0.5 0 0.5 
+ Constructor
+ axes
+wtf
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Anfang: 0.015625 0
+ Ende: 0.484375 0.5
+ Created new tasks 6
+ MPI coordinates for rank 6 -> 1 1 0
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 6 0 0 -0.5 0.5 0.5 0 
+ Constructor
+ axes
+wtf
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Anfang: 0.015625 0
+ Ende: 0.484375 0.5
+ Created new tasks 1
+ MPI coordinates for rank 1 -> 0 0 1
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Making linear grid from -0.5 0.5 with 32 cells
+ Properties of grid 1 -0.5 -0.5 0 0 0 0.5 
+ Constructor
+ axes
+wtf
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from -0.5 0 with 16 cells
+ Making linear grid from 0 0.5 with 16 cells
+ Anfang: -0.484375 -0.5
+ Ende: -0.015625 0
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 3:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ -> 8000
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ -> 8000
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 3:
+ Volume of Sedov region: 0.00415039 in 136 cells
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 3:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ -> 8000
+ resizing field 5:
+ -> 8000
+ -> 8000
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 3:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 3:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 0:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 0:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 0:
+ -> 8000
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 1:
+ resizing field 0:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 1:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 2:
+ -> 8000
+ -> 8000
+ resizing field 2:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ -> 8000
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 3:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ resizing field 4:
+ -> 8000
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ resizing field 5:
+ -> 8000
+ -> 8000
+ -> 8000
+ -> 8000
+ CFL number 371.706
+ Integrating time step 0 at t =0
+ 		 step size 0.00107612
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 394.988
+ Integrating time step 1 at t =0.00107612
+ 		 step size 0.00101269
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 406.147
+ Integrating time step 2 at t =0.00208881
+ 		 step size 0.000984864
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 416.061
+ Integrating time step 3 at t =0.00307367
+ 		 step size 0.000961397
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 422.091
+ Integrating time step 4 at t =0.00403507
+ 		 step size 0.000947663
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 422.671
+ Integrating time step 5 at t =0.00498273
+ 		 step size 1.72681e-05
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 422.729
+ Integrating time step 6 at t =0.005
+ 		 step size 0.000946232
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 423.729
+ Integrating time step 7 at t =0.00594623
+ 		 step size 0.000944
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 422.089
+ Integrating time step 8 at t =0.00689023
+ 		 step size 0.000947667
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 422.491
+ Integrating time step 9 at t =0.0078379
+ 		 step size 0.000946766
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 424.912
+ Integrating time step 10 at t =0.00878466
+ 		 step size 0.000941371
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 426.519
+ Integrating time step 11 at t =0.00972604
+ 		 step size 0.000273964
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 426.585
+ Integrating time step 12 at t =0.01
+ 		 step size 0.000937679
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 427.637
+ Integrating time step 13 at t =0.0109377
+ 		 step size 0.000935374
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 428.388
+ Integrating time step 14 at t =0.0118731
+ 		 step size 0.000933732
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 428.882
+ Integrating time step 15 at t =0.0128068
+ 		 step size 0.000932657
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 429.149
+ Integrating time step 16 at t =0.0137394
+ 		 step size 0.000932077
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 429.224
+ Integrating time step 17 at t =0.0146715
+ 		 step size 0.000328481
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 429.19
+ Integrating time step 18 at t =0.015
+ 		 step size 0.000931989
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 429.075
+ Integrating time step 19 at t =0.015932
+ 		 step size 0.000932239
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 428.776
+ Integrating time step 20 at t =0.0168642
+ 		 step size 0.000932887
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 428.251
+ Integrating time step 21 at t =0.0177971
+ 		 step size 0.000934032
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 427.452
+ Integrating time step 22 at t =0.0187311
+ 		 step size 0.000935777
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 426.316
+ Integrating time step 23 at t =0.0196669
+ 		 step size 0.000333076
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 425.85
+ Integrating time step 24 at t =0.02
+ 		 step size 0.000939297
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 424.356
+ Integrating time step 25 at t =0.0209393
+ 		 step size 0.000942604
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 422.695
+ Integrating time step 26 at t =0.0218819
+ 		 step size 0.000946308
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 420.922
+ Integrating time step 27 at t =0.0228282
+ 		 step size 0.000950295
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 419.142
+ Integrating time step 28 at t =0.0237785
+ 		 step size 0.000954331
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 417.462
+ Integrating time step 29 at t =0.0247328
+ 		 step size 0.000267165
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 417.019
+ Integrating time step 30 at t =0.025
+ 		 step size 0.00095919
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 415.522
+ Integrating time step 31 at t =0.0259592
+ 		 step size 0.000962644
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 414.15
+ Integrating time step 32 at t =0.0269218
+ 		 step size 0.000965834
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 412.843
+ Integrating time step 33 at t =0.0278877
+ 		 step size 0.00096889
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 411.565
+ Integrating time step 34 at t =0.0288566
+ 		 step size 0.000971899
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 410.311
+ Integrating time step 35 at t =0.0298285
+ 		 step size 0.000171543
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 410.093
+ Integrating time step 36 at t =0.03
+ 		 step size 0.00097539
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 408.859
+ Integrating time step 37 at t =0.0309754
+ 		 step size 0.000978332
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 407.638
+ Integrating time step 38 at t =0.0319537
+ 		 step size 0.000981263
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 406.423
+ Integrating time step 39 at t =0.032935
+ 		 step size 0.000984195
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 405.211
+ Integrating time step 40 at t =0.0339192
+ 		 step size 0.000987141
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 403.984
+ Integrating time step 41 at t =0.0349063
+ 		 step size 9.36793e-05
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 403.866
+ Integrating time step 42 at t =0.035
+ 		 step size 0.000990428
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 402.579
+ Integrating time step 43 at t =0.0359904
+ 		 step size 0.000993594
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 401.243
+ Integrating time step 44 at t =0.036984
+ 		 step size 0.000996901
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 400.641
+ Integrating time step 45 at t =0.0379809
+ 		 step size 0.0009984
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 400.09
+ Integrating time step 46 at t =0.0389793
+ 		 step size 0.000999775
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 399.529
+ Integrating time step 47 at t =0.0399791
+ 		 step size 2.09024e-05
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 399.517
+ Integrating time step 48 at t =0.04
+ 		 step size 0.00100121
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 398.944
+ Integrating time step 49 at t =0.0410012
+ 		 step size 0.00100265
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 398.345
+ Integrating time step 50 at t =0.0420039
+ 		 step size 0.00100416
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 397.687
+ Integrating time step 51 at t =0.043008
+ 		 step size 0.00100582
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 396.947
+ Integrating time step 52 at t =0.0440138
+ 		 step size 0.000986172
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 396.154
+ Integrating time step 53 at t =0.045
+ 		 step size 0.00100971
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 395.255
+ Integrating time step 54 at t =0.0460097
+ 		 step size 0.001012
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 394.266
+ Integrating time step 55 at t =0.0470217
+ 		 step size 0.00101454
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 393.18
+ Integrating time step 56 at t =0.0480363
+ 		 step size 0.00101734
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 392.017
+ Integrating time step 57 at t =0.0490536
+ 		 step size 0.0009464
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 390.884
+ Integrating time step 58 at t =0.05
+ 		 step size 0.00102332
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 389.623
+ Integrating time step 59 at t =0.0510233
+ 		 step size 0.00102663
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 388.336
+ Integrating time step 60 at t =0.05205
+ 		 step size 0.00103004
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 387.037
+ Integrating time step 61 at t =0.05308
+ 		 step size 0.00103349
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 385.736
+ Integrating time step 62 at t =0.0541135
+ 		 step size 0.000886518
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 384.631
+ Integrating time step 63 at t =0.055
+ 		 step size 0.00103996
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 383.356
+ Integrating time step 64 at t =0.05604
+ 		 step size 0.00104342
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 382.108
+ Integrating time step 65 at t =0.0570834
+ 		 step size 0.00104682
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 380.893
+ Integrating time step 66 at t =0.0581302
+ 		 step size 0.00105016
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 379.715
+ Integrating time step 67 at t =0.0591804
+ 		 step size 0.00081964
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 378.826
+ Integrating time step 68 at t =0.06
+ 		 step size 0.00105589
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 377.718
+ Integrating time step 69 at t =0.0610559
+ 		 step size 0.00105899
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 376.653
+ Integrating time step 70 at t =0.0621149
+ 		 step size 0.00106199
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 375.63
+ Integrating time step 71 at t =0.0631769
+ 		 step size 0.00106488
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 374.65
+ Integrating time step 72 at t =0.0642417
+ 		 step size 0.00075825
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 373.982
+ Integrating time step 73 at t =0.065
+ 		 step size 0.00106957
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 373.08
+ Integrating time step 74 at t =0.0660696
+ 		 step size 0.00107216
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 372.216
+ Integrating time step 75 at t =0.0671417
+ 		 step size 0.00107465
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 371.385
+ Integrating time step 76 at t =0.0682164
+ 		 step size 0.00107705
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 370.587
+ Integrating time step 77 at t =0.0692934
+ 		 step size 0.000706578
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 370.083
+ Integrating time step 78 at t =0.07
+ 		 step size 0.00108084
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 369.338
+ Integrating time step 79 at t =0.0710808
+ 		 step size 0.00108302
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 368.621
+ Integrating time step 80 at t =0.0721639
+ 		 step size 0.00108513
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 367.932
+ Integrating time step 81 at t =0.073249
+ 		 step size 0.00108716
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 367.268
+ Integrating time step 82 at t =0.0743361
+ 		 step size 0.000663858
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 366.875
+ Integrating time step 83 at t =0.075
+ 		 step size 0.00109029
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 366.247
+ Integrating time step 84 at t =0.0760903
+ 		 step size 0.00109216
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 365.639
+ Integrating time step 85 at t =0.0771824
+ 		 step size 0.00109397
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 365.049
+ Integrating time step 86 at t =0.0782764
+ 		 step size 0.00109574
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 364.475
+ Integrating time step 87 at t =0.0793722
+ 		 step size 0.000627835
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 364.152
+ Integrating time step 88 at t =0.08
+ 		 step size 0.00109844
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 363.6
+ Integrating time step 89 at t =0.0810984
+ 		 step size 0.00110011
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 363.058
+ Integrating time step 90 at t =0.0821986
+ 		 step size 0.00110175
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 362.526
+ Integrating time step 91 at t =0.0833003
+ 		 step size 0.00110337
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 362.003
+ Integrating time step 92 at t =0.0844037
+ 		 step size 0.000596328
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 361.723
+ Integrating time step 93 at t =0.085
+ 		 step size 0.00110582
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 361.21
+ Integrating time step 94 at t =0.0861058
+ 		 step size 0.00110739
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 360.703
+ Integrating time step 95 at t =0.0872132
+ 		 step size 0.00110894
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 360.203
+ Integrating time step 96 at t =0.0883222
+ 		 step size 0.00111048
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 359.708
+ Integrating time step 97 at t =0.0894326
+ 		 step size 0.000567364
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 359.457
+ Integrating time step 98 at t =0.09
+ 		 step size 0.00111279
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 358.969
+ Integrating time step 99 at t =0.0911128
+ 		 step size 0.0011143
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 358.484
+ Integrating time step 100 at t =0.0922271
+ 		 step size 0.00111581
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 358.002
+ Integrating time step 101 at t =0.0933429
+ 		 step size 0.00111731
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 357.521
+ Integrating time step 102 at t =0.0944602
+ 		 step size 0.000539788
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 357.289
+ Integrating time step 103 at t =0.095
+ 		 step size 0.00111954
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 356.809
+ Integrating time step 104 at t =0.0961195
+ 		 step size 0.00112105
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 356.329
+ Integrating time step 105 at t =0.0972406
+ 		 step size 0.00112256
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 355.846
+ Integrating time step 106 at t =0.0983631
+ 		 step size 0.00112408
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ CFL number 355.361
+ Integrating time step 107 at t =0.0994872
+ 		 step size 0.000512771
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 0
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+ Doing Runge-Kutta step 1
+time: 3.546548

@@ -130,7 +130,7 @@ int main(int argc, char *argv[]) {
 	finite_volume_solver solver_parallel(hd_fluid, parallel_stuff, global_grid);
 	solver_parallel.set_init_function(function_init);
 
-	double t_final = 0.01;
+	double t_final = 0.1;
 	double dt_out = 0.005;
 
 	solver_parallel.run(my_grid, hd_fluid, t_final, dt_out);

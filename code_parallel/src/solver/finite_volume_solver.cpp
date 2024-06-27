@@ -94,9 +94,13 @@ int finite_volume_solver::run(grid_3D &spatial_grid, fluid &current_fluid, doubl
 
 	// Store initial time step
 #ifdef PARALLEL_VERSION
-	store_timestep_parallel(spatial_grid, current_fluid);
+	// MPI_Barrier(MPI_COMM_WORLD);
+	// std::cout << "rank " << rank << " step X" << std::endl;
+	// store_timestep_parallel(spatial_grid, current_fluid);
+	// MPI_Barrier(MPI_COMM_WORLD);
+	// std::cout << "rank " << rank << " step Y" << std::endl;
 #else
-	store_timestep(spatial_grid, current_fluid);
+	// store_timestep(spatial_grid, current_fluid);
 #endif
 
 	time_output_next = delta_t_output;
@@ -135,9 +139,9 @@ int finite_volume_solver::run(grid_3D &spatial_grid, fluid &current_fluid, doubl
 		// if(num_time_steps%10 == 0) {
 		if (write_next_step) {
 #ifdef PARALLEL_VERSION
-			store_timestep_parallel(spatial_grid, current_fluid);
+			// store_timestep_parallel(spatial_grid, current_fluid);
 #else
-			store_timestep(spatial_grid, current_fluid);
+			// store_timestep(spatial_grid, current_fluid);
 #endif
 		}
 	}
